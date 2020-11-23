@@ -1,4 +1,4 @@
 module.exports = {
-  mongoURI: "mongodb+srv://gurudanito001:nwokocha95@cluster0.4rwgp.gcp.mongodb.net/MernAuth?retryWrites=true&w=majority",
+  mongoURI: "mongodb+srv://nwokocha95:nwokocha95@cluster0.fbrwv.mongodb.net/reviews?retryWrites=true&w=majority",
   secretOrKey: "secret"
 };

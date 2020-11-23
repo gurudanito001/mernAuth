@@ -3,7 +3,11 @@ const Schema = mongoose.Schema;
 
 // Create Schema
 const UserSchema = new Schema({
-  name: {
+  firstname: {
+    type: String,
+    required: true
+  },
+  lastname: {
     type: String,
     required: true
   },
@@ -15,10 +19,9 @@ const UserSchema = new Schema({
     type: String,
     required: true
   },
-  date: {
-    type: Date,
-    default: Date.now
+  admin: {
+    type: Boolean
   }
 });
 
-module.exports = User = mongoose.model("users", UserSchema);
+module.exports = mongoose.model("User", UserSchema);
